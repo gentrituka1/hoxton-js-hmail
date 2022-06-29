@@ -1,0 +1,22 @@
+
+
+Equality "=="
+Strict equality "==="
+Inequality "!="
+Strict inequality "!=="
+AND "&&"
+OR "||"
+
+"Hello".includes("e")
+
+
+Prepend -- ( at the beginning of a div)
+append -- ( at the end of a div)
+
+How to stop a form from refreshing the page:
+let formEl = document.querySelector("form")
+
+formEl.addEventListener("submit", function (event) {
+    event.preventDefault()
+    console.log("Hello!")
+})
