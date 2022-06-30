@@ -32,8 +32,49 @@ main {
   max-width: 700px;
 }
 
+.compose-email{
+  display: grid;
+  grid-gap: 20px;
+}
+.compose-email__from{
+  height: 40px;
+  padding: 5px;
+}
+.compose-email__subject{
+  height: 40px;
+}
+.compose-email__content{
+  height: 200px;
+  padding: 5px;
+}
+.compose-email__submit{
+  padding: 10px;
+  width: 20%;
+}
+.compose-email__to{
+  height: 40px;
+  padding: 5px;
+}
+
+
+.compose-email__compose{
+  transform: translateX(10px);
+  padding: 10px;
+  border-radius: 20%;
+  border: 1px yellow solid;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}
+.compose-email__compose:hover{
+  background-color: white;
+  color: royalblue;
+  transition: all 0.5s ease-in-out; 
+}
+
 .logo {
   height: 60px;
+  cursor: pointer;
 }
 
 .filter-input {
